@@ -17,20 +17,24 @@ a:hover {
 }
 
 #alles {
-	text-align: center;
 	height: 80px;
+	margin-left: -240px;
+	margin-top: -40px;
 	width: 480px;
+	text-align: center;
 	white-space: nowrap;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -240px;
-	margin-top: -40px;
 }
 
 .ceci-nest-pas {
 	color: #333;
 	font-family: "learning-curve", cursive;
+	font-size: 36px;
+}
+
+html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas {
 	font-size: 54px;
 }
 
