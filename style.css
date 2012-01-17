@@ -67,3 +67,9 @@ html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas .image {
 	display: block;
 	float: left;
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	body {
+		font-size: 10px;
+	}
+}
