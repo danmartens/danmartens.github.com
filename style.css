@@ -4,7 +4,6 @@ body {
 	background-color: #f4f4f4;
 	font-size: 12px;
 	font-family: Helvetica, Arial, sans;
-	margin: 0;
 }
 
 a {
@@ -17,10 +16,10 @@ a:hover {
 }
 
 #alles {
-	height: 80px;
-	margin-left: -240px;
-	margin-top: -40px;
-	width: 480px;
+	height: 6.667em;
+	margin-left: -16.333em;
+	margin-top: -3.333em;
+	width: 32.583em;
 	text-align: center;
 	white-space: nowrap;
 	position: absolute;
@@ -28,20 +27,49 @@ a:hover {
 	left: 50%;
 }
 
-.ceci-nest-pas {
-	color: #333;
-	font-family: "learning-curve", cursive;
-	font-size: 36px;
+.ceci-nest-pas .text {
+	display: none;
 }
 
-html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas {
-	font-size: 54px;
+.ceci-nest-pas .image {
+	background: url(ceci_nest_pas.gif) no-repeat;
+	height: 46px;
+	width: 391px;
+}
+
+html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas .text {
+	color: #333;
+	display: block;
+	font-family: "learning-curve";
+	font-size: 4.500em;
+}
+
+html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas .image {
+	display: none;
 }
 
 .di-me {
-	margin-top: 10px;
+	height: 1.667em;
+	margin: 0.833em auto;
+	padding-right: 1.333em;
+	display: block;
+	width: 20.000em;
 }
 
-.separate {
-	padding: 0 5px;
+.di-me a {
+	display: block;
+	float: left;
+	line-height: 1.333em;
+	padding: 0 0.833em;
+}
+
+.di-me img {
+	display: block;
+	float: left;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	body {
+		font-size: 20px;
+	}
 }
