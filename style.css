@@ -1,0 +1,43 @@
+/* @override http://danmartens.dev/style.css */
+
+body {
+	background-color: #f4f4f4;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans;
+	margin: 0;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#alles {
+	text-align: center;
+	height: 80px;
+	width: 480px;
+	white-space: nowrap;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -240px;
+	margin-top: -40px;
+}
+
+.ceci-nest-pas {
+	color: #333;
+	font-family: "learning-curve", cursive;
+	font-size: 54px;
+}
+
+.di-me {
+	margin-top: 10px;
+}
+
+.separate {
+	padding: 0 5px;
+}
