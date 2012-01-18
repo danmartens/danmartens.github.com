@@ -1,4 +1,4 @@
-/* @override http://danmartens.dev/style.css */
+/* @override http://0.0.0.0:8000/style.css */
 
 body {
 	background-color: #f4f4f4;
@@ -15,61 +15,79 @@ a:hover {
 	text-decoration: underline;
 }
 
-#alles {
-	height: 6.667em;
-	margin-left: -16.333em;
-	margin-top: -3.333em;
-	width: 32.583em;
+#all {
+	height: 80px;
+	margin-top: -50px;
+	margin-left: -196px;
+	width: 391px;
 	text-align: center;
-	white-space: nowrap;
 	position: absolute;
-	top: 50%;
+	white-space: nowrap;
 	left: 50%;
+	top: 50%;
 }
 
 .ceci-nest-pas .text {
+	color: #333;
 	display: none;
+	font-family: "learning-curve";
+	font-size: 54px;
 }
 
 .ceci-nest-pas .image {
-	background: url(ceci_nest_pas.gif) no-repeat;
+	background: url(ceci_nest_pas_391.gif) no-repeat;
 	height: 46px;
+	margin-top: 6px;
+	margin-left: 1px;
+	margin-bottom: 12px;
 	width: 391px;
 }
 
 html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas .text {
-	color: #333;
 	display: block;
-	font-family: "learning-curve";
-	font-size: 4.500em;
 }
 
 html.wf-learningcurve-n4-active.wf-active .ceci-nest-pas .image {
 	display: none;
 }
 
-.di-me {
-	height: 1.667em;
-	margin: 0.833em auto;
-	padding-right: 1.333em;
+.links {
+	height: 20px;
+	margin: 10px auto;
+	padding-right: 15px;
 	display: block;
-	width: 20.000em;
+	width: 230px;
 }
 
-.di-me a {
-	display: block;
-	float: left;
-	line-height: 1.333em;
-	padding: 0 0.833em;
-}
-
-.di-me img {
+.links a {
 	display: block;
 	float: left;
+	line-height: 16px;
+
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-	body {
-		font-size: 10px;
+.links .seperator {
+	background: url(leaf.png) no-repeat center center;
+	display: block;
+	width: 40px;
+	height: 15px;
+	float: left;
+}
+
+
+@media screen and (orientation:portrait) and (max-device-width: 480px) {
+	#all {
+		height: 65px;
+		margin-top: -40px;
+		margin-left: -138px;
+		width: 275px;
+	}
+	
+	.ceci-nest-pas .text {
+		font-size: 38px;
+	}
+	
+	.links {
+		padding-right: 0px;
 	}
 }
